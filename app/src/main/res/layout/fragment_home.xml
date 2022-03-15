@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/innerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColorWhite"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_20dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/dimen_30dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:src="@drawable/icn_fi_logo" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/StyleNormalTextView.XXNormalBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:text="@string/title_first_of_the_few_steps"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/StyleNormalTextView.XNormalBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_50dp"
+            android:text="@string/title_pan_number" />
+
+        <EditText
+            android:id="@+id/etPan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:background="@drawable/edittext_round_corder_white_bg"
+            android:fontFamily="@font/abeezee"
+            android:maxLength="10"
+            android:hint="@string/hint_enter_pan_number"
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/dimen_10dp" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/StyleNormalTextView.XNormalBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:text="@string/title_birthdate" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <EditText
+                android:id="@+id/etDD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/edittext_round_corder_white_bg"
+                android:fontFamily="@font/abeezee"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:maxLength="2"
+                android:hint="@string/hint_dd"
+                android:inputType="phone"
+                android:padding="@dimen/dimen_10dp" />
+
+            <Space
+                android:layout_width="@dimen/dimen_20dp"
+                android:layout_height="0dp" />
+
+            <EditText
+                android:id="@+id/etMM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/edittext_round_corder_white_bg"
+                android:fontFamily="@font/abeezee"
+                android:gravity="center"
+                android:maxLength="2"
+                android:digits="0123456789"
+                android:hint="@string/hint_mm"
+                android:inputType="numberSigned"
+                android:padding="@dimen/dimen_10dp" />
+
+            <Space
+                android:layout_width="@dimen/dimen_20dp"
+                android:layout_height="0dp" />
+
+
+            <EditText
+                android:id="@+id/etYYYY"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@drawable/edittext_round_corder_white_bg"
+                android:fontFamily="@font/abeezee"
+                android:gravity="center"
+                android:maxLength="4"
+                android:digits="0123456789"
+                android:hint="@string/hint_yyyy"
+                android:inputType="numberSigned"
+                android:padding="@dimen/dimen_10dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBankSetupDesc"
+            style="@style/StyleNormalTextView.smallBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:text="@string/desc_setup_bank" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:background="@drawable/button_round_corder_purple_bg"
+            android:fontFamily="@font/abeezee"
+            android:text="@string/btn_next"
+            android:textColor="@color/textColorWhite" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvIDontHavePan"
+            style="@style/StyleNormalTextView.smallBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:text="@string/lbl_i_dont_have_pan"
+            android:textColor="@color/textColorPurple" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

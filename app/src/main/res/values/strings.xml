@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Practical Janak</string>
+
+    <string name="default_loading_message">Loading…</string>
+    <string name="default_internet_message">No Internet Connection</string>
+
+    <string name="msg_no_data_found">No Data Found</string>
+    <string name="msg_no_internet_home_screen">No internet connection available. Please turn on your internet &amp; try again.</string>
+
+    <string name="lbl_something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="btn_text_ok">OK</string>
+    <string name="btn_text_go_back">Go Back</string>
+
+    <!--Home Screen-->
+    <string name="title_coding_assignment_android">Coding Assignment - Android</string>
+    <string name="title_fi">Fi</string>
+    <string name="desc_practical">It a practical test app for the organization Fi. Test includes fining application assets from a third party API.</string>
+    <string name="btn_search_application">Search Application</string>
+    <string name="btn_my_application">My Applications</string>
+    <string name="btn_about_us">About Us</string>
+    <string name="btn_exit">Exit</string>
+    <!--Home Screen-->
+
+    <!--Search Application-->
+    <string name="hint_enter_package_name">Enter package name</string>
+    <string name="desc_package_name">Package name should be a application package name for which you want to get all assets. For examples: com.whatsapp, com.facebook.lite etc.</string>
+    <string name="btn_get_assets">Get Assets</string>
+    <string name="error_please_enter_package_name_first">Please enter package name first.</string>
+    <!--Search Application-->
+
+    <!--My Application-->
+    <string name="lbl_target_sdk_version">Target SDK Version</string>
+    <!--My Application-->
+
+
+    <string name="title_amazon_execute_api_url">Amazon Execute-API URL</string>
+    <string name="title_email">Email</string>
+    <string name="title_file_name">File Name</string>
+    <string name="title_file_path">File Path</string>
+    <string name="title_host">Host</string>
+    <string name="title_ip_address">IP Address disclosure</string>
+    <string name="title_rest_api">Rest API</string>
+    <string name="title_url">URL</string>
+
+    <!--Setup Screen-->
+    <string name="title_first_of_the_few_steps">First of the few steps to set you up with a Bank Account</string>
+    <string name="title_pan_number">PAN NUMBER</string>
+    <string name="title_birthdate">BIRTHDATE</string>
+    <string name="hint_enter_pan_number">Enter PAN Number</string>
+    <string name="hint_dd">DD</string>
+    <string name="hint_mm">MM</string>
+    <string name="hint_yyyy">YYYY</string>
+
+    <string name="desc_setup_bank">Providing PAN &amp; Date of Birth helps us find and fetch your KYC from a central registry by the Government of India.</string>
+    <string name="lbl_learn_more">Learn more</string>
+    <string name="btn_next">NEXT</string>
+    <string name="lbl_i_dont_have_pan">I don\'t have a PAN</string>
+
+    <string name="error_invalid_pan_number">Invalid PAN Number</string>
+    <string name="error_invalid_day">Invalid Day</string>
+    <string name="error_invalid_month">Invalid Month</string>
+    <string name="error_invalid_year">Invalid Year</string>
+
+    <string name="msg_details_submitted_successfully">Details submitted successfully</string>
+    <!--Setup Screen-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
